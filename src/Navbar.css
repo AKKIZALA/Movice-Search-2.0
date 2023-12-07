@@ -1,0 +1,71 @@
+.nav_hero{
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    height:76vh;
+    width:100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    z-index: -10;
+}
+.nav_Search{
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    height:76vh;
+    width:100vw;
+    position:absolute;
+    z-index: -10;
+    color:#fff;
+}
+#search_poster{
+    width: 91%;
+    height: 93%;
+    background-image: url("../src/assets/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .1rem solid #000;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+#search_poster p{
+font-size: 3rem;
+margin-bottom: 2rem;
+}
+#search_poster h2{
+font-size: 2.5rem;
+margin-bottom: .5rem;
+}
+#search_poster h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.img2{
+    height: 70vh;
+    border-radius: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    margin-bottom: 0.2rem;
+}
+
+
+@media (max-width:650px){
+    .img2{
+        height: 50vh;
+        margin-bottom: 1.5rem;
+    }
+    #search_poster{
+        text-align: center;
+    }
+}
+
+
+
+
